@@ -1,0 +1,94 @@
+
+.HomePage{
+    background-color: rgb(241, 239, 239);
+    margin-top: 0px;
+    /* border: 1px solid rgba(255, 0, 0, 0.938); */
+    /* background-image: url('../../../public/images/financial-chart.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+.dataCard{
+    width: 60%;
+    margin: auto;
+    
+}
+.shbztext{
+    color: black;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+/*  */
+
+.page-item{
+    background-image: url('../../../public/images/360_F_280636695_1fdEvWudZgP5DysWgIq7Ho55JXILdMoU.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: rgb(247, 245, 245);
+    justify-content: center;
+    align-items: center; 
+}
+
+.page-item h1{
+    padding-top: 20%;
+}
+.page-item h3{
+    padding-bottom: 20%;
+    animation: wiggle 2s linear infinite;
+}
+
+
+.protfilio_help{
+    background-image: url('../../../public/images/business-person-analyzing-stock-market-data-on-tablet-with-dark-background-ai-generated-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: rgb(247, 245, 245);
+    justify-content: center;
+    align-items: center; 
+}
+.protfilio_help h1{
+    padding-top: 15%; 
+}
+.protfilio_help h3{
+    padding-bottom: 10%;
+    animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+ 
+  
+
+   
+.protfilio_help h3:hover{
+    transform: translate(1.5);
+}

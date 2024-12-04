@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    height: 60px;
+    padding: 10px 20px;
+    border: 2px solid white;
+  }
+  
+  .navbar__left {
+    flex: 1; /* Takes up remaining space */
+    margin-left: 50px;
+  }
+  
+  .navbar__logo {
+    width: 100px; /* Adjust according to your logo size */
+    height: 35px;
+
+  }
+  
+  .navbar__right {
+    flex: 2; /* Takes up remaining space */
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  .navbar__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+  }
+  
+  .navbar__item {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  .navbar__item a {
+    color: white;
+    
+    text-decoration: none;
+  }
+  
+  .navbar__item a:hover {
+    color: #1eb2a6;  
+
+  }
+
+  .menu{
+    display: none;
+    position: absolute;
+    top:0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+  }
+  .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+  }
+
+  @media (max-width : 480px){
+    .menu{
+      display: flex;
+    }
+    .navbar__list{
+      display: none;
+      flex-direction: column;
+      width: 100vw;
+      margin-bottom: 0.25rem;
+      margin-top: 1rem;
+      font-size: larger;
+      background-color: #1eb2a6;
+      text-align: center;
+    }
+    .navbar__logo{
+      margin-top: 0%;
+    }
+    .navbar__list.open {
+      display: flex; 
+    }
+  }
